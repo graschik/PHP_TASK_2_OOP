@@ -1,0 +1,17 @@
+{
+    "name": "php-courses/file-converter-starter",
+    "description": "Initial repository to start writing file converter",
+    "autoload": {
+        "psr-4": {
+            "FileConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FileConverter\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
